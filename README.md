@@ -1,2 +1,2 @@
 # Serrano
-Light-Weight Type-Safe Hot-Pepper Networking
+Light-Weight Type-Safe Protocol-Oriented Hot-Pepper Networking
