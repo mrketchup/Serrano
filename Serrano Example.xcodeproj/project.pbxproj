@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3443B27C1D76287E00203D74 /* Serrano.h in Headers */ = {isa = PBXBuildFile; fileRef = 3443B27A1D76287E00203D74 /* Serrano.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3443B27F1D76287E00203D74 /* Serrano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3443B2781D76287E00203D74 /* Serrano.framework */; };
+		3443B2801D76287E00203D74 /* Serrano.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3443B2781D76287E00203D74 /* Serrano.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3443B28E1D76290700203D74 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B2891D76290700203D74 /* SessionManager.swift */; };
+		3443B28F1D76290700203D74 /* RequestEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B28A1D76290700203D74 /* RequestEncoder.swift */; };
+		3443B2901D76290700203D74 /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B28B1D76290700203D74 /* ResponseParser.swift */; };
+		3443B2921D76290700203D74 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B28D1D76290700203D74 /* URLBuilder.swift */; };
+		3443B29C1D762A4400203D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B2931D762A4400203D74 /* AppDelegate.swift */; };
+		3443B29D1D762A4400203D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3443B2941D762A4400203D74 /* Assets.xcassets */; };
+		3443B29E1D762A4400203D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3443B2961D762A4400203D74 /* LaunchScreen.storyboard */; };
+		3443B29F1D762A4400203D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3443B2981D762A4400203D74 /* Main.storyboard */; };
+		3443B2A11D762A4400203D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B29B1D762A4400203D74 /* ViewController.swift */; };
+		3443B2A91D762B9D00203D74 /* Serrano_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B2A81D762B9D00203D74 /* Serrano_Tests.swift */; };
+		3443B2AB1D762B9D00203D74 /* Serrano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3443B2781D76287E00203D74 /* Serrano.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3443B27D1D76287E00203D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D82D0F1D5A4EA600BDCB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3443B2771D76287E00203D74;
+			remoteInfo = Serrano;
+		};
+		3443B2AC1D762B9D00203D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D82D0F1D5A4EA600BDCB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3443B2771D76287E00203D74;
+			remoteInfo = Serrano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34D82D3D1D5A4F3500BDCB5E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3443B2801D76287E00203D74 /* Serrano.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3443B2781D76287E00203D74 /* Serrano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Serrano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3443B27A1D76287E00203D74 /* Serrano.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Serrano.h; sourceTree = "<group>"; };
+		3443B27B1D76287E00203D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3443B2891D76290700203D74 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		3443B28A1D76290700203D74 /* RequestEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestEncoder.swift; sourceTree = "<group>"; };
+		3443B28B1D76290700203D74 /* ResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		3443B28D1D76290700203D74 /* URLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		3443B2931D762A4400203D74 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Serrano Example/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		3443B2941D762A4400203D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Serrano Example/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		3443B2971D762A4400203D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3443B2991D762A4400203D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		3443B29A1D762A4400203D74 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Serrano Example/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3443B29B1D762A4400203D74 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Serrano Example/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3443B2A61D762B9D00203D74 /* Serrano Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Serrano Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3443B2A81D762B9D00203D74 /* Serrano_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serrano_Tests.swift; sourceTree = "<group>"; };
+		3443B2AA1D762B9D00203D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D82D171D5A4EA600BDCB5E /* Serrano Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Serrano Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3443B2741D76287E00203D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3443B2A31D762B9D00203D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443B2AB1D762B9D00203D74 /* Serrano.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D82D141D5A4EA600BDCB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443B27F1D76287E00203D74 /* Serrano.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3443B2791D76287E00203D74 /* Serrano */ = {
+			isa = PBXGroup;
+			children = (
+				3443B27A1D76287E00203D74 /* Serrano.h */,
+				3443B27B1D76287E00203D74 /* Info.plist */,
+				3443B2891D76290700203D74 /* SessionManager.swift */,
+				3443B28A1D76290700203D74 /* RequestEncoder.swift */,
+				3443B28B1D76290700203D74 /* ResponseParser.swift */,
+				3443B28D1D76290700203D74 /* URLBuilder.swift */,
+			);
+			path = Serrano;
+			sourceTree = "<group>";
+		};
+		3443B2A71D762B9D00203D74 /* Serrano Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3443B2A81D762B9D00203D74 /* Serrano_Tests.swift */,
+				3443B2AA1D762B9D00203D74 /* Info.plist */,
+			);
+			path = "Serrano Tests";
+			sourceTree = "<group>";
+		};
+		34D82D0E1D5A4EA600BDCB5E = {
+			isa = PBXGroup;
+			children = (
+				34D82D191D5A4EA600BDCB5E /* Serrano Example */,
+				3443B2791D76287E00203D74 /* Serrano */,
+				3443B2A71D762B9D00203D74 /* Serrano Tests */,
+				34D82D181D5A4EA600BDCB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34D82D181D5A4EA600BDCB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D82D171D5A4EA600BDCB5E /* Serrano Example.app */,
+				3443B2781D76287E00203D74 /* Serrano.framework */,
+				3443B2A61D762B9D00203D74 /* Serrano Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D82D191D5A4EA600BDCB5E /* Serrano Example */ = {
+			isa = PBXGroup;
+			children = (
+				3443B2931D762A4400203D74 /* AppDelegate.swift */,
+				3443B29B1D762A4400203D74 /* ViewController.swift */,
+				3443B2941D762A4400203D74 /* Assets.xcassets */,
+				3443B2961D762A4400203D74 /* LaunchScreen.storyboard */,
+				3443B2981D762A4400203D74 /* Main.storyboard */,
+				3443B29A1D762A4400203D74 /* Info.plist */,
+			);
+			name = "Serrano Example";
+			path = "MRKNetworking Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3443B2751D76287E00203D74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443B27C1D76287E00203D74 /* Serrano.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3443B2771D76287E00203D74 /* Serrano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3443B2811D76287E00203D74 /* Build configuration list for PBXNativeTarget "Serrano" */;
+			buildPhases = (
+				3443B2731D76287E00203D74 /* Sources */,
+				3443B2741D76287E00203D74 /* Frameworks */,
+				3443B2751D76287E00203D74 /* Headers */,
+				3443B2761D76287E00203D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Serrano;
+			productName = Serrano;
+			productReference = 3443B2781D76287E00203D74 /* Serrano.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3443B2A51D762B9D00203D74 /* Serrano Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3443B2AE1D762B9D00203D74 /* Build configuration list for PBXNativeTarget "Serrano Tests" */;
+			buildPhases = (
+				3443B2A21D762B9D00203D74 /* Sources */,
+				3443B2A31D762B9D00203D74 /* Frameworks */,
+				3443B2A41D762B9D00203D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3443B2AD1D762B9D00203D74 /* PBXTargetDependency */,
+			);
+			name = "Serrano Tests";
+			productName = "Serrano Tests";
+			productReference = 3443B2A61D762B9D00203D74 /* Serrano Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34D82D161D5A4EA600BDCB5E /* Serrano Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D82D291D5A4EA600BDCB5E /* Build configuration list for PBXNativeTarget "Serrano Example" */;
+			buildPhases = (
+				34D82D131D5A4EA600BDCB5E /* Sources */,
+				34D82D141D5A4EA600BDCB5E /* Frameworks */,
+				34D82D151D5A4EA600BDCB5E /* Resources */,
+				34D82D3D1D5A4F3500BDCB5E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3443B27E1D76287E00203D74 /* PBXTargetDependency */,
+			);
+			name = "Serrano Example";
+			productName = "MRKNetworking Example";
+			productReference = 34D82D171D5A4EA600BDCB5E /* Serrano Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D82D0F1D5A4EA600BDCB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Matt Jones";
+				TargetAttributes = {
+					3443B2771D76287E00203D74 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S4BT7M28UN;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					3443B2A51D762B9D00203D74 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S4BT7M28UN;
+						ProvisioningStyle = Automatic;
+					};
+					34D82D161D5A4EA600BDCB5E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S4BT7M28UN;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34D82D121D5A4EA600BDCB5E /* Build configuration list for PBXProject "Serrano Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34D82D0E1D5A4EA600BDCB5E;
+			productRefGroup = 34D82D181D5A4EA600BDCB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D82D161D5A4EA600BDCB5E /* Serrano Example */,
+				3443B2771D76287E00203D74 /* Serrano */,
+				3443B2A51D762B9D00203D74 /* Serrano Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3443B2761D76287E00203D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3443B2A41D762B9D00203D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D82D151D5A4EA600BDCB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443B29F1D762A4400203D74 /* Main.storyboard in Resources */,
+				3443B29D1D762A4400203D74 /* Assets.xcassets in Resources */,
+				3443B29E1D762A4400203D74 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3443B2731D76287E00203D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443B2921D76290700203D74 /* URLBuilder.swift in Sources */,
+				3443B28F1D76290700203D74 /* RequestEncoder.swift in Sources */,
+				3443B28E1D76290700203D74 /* SessionManager.swift in Sources */,
+				3443B2901D76290700203D74 /* ResponseParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3443B2A21D762B9D00203D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443B2A91D762B9D00203D74 /* Serrano_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D82D131D5A4EA600BDCB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443B2A11D762A4400203D74 /* ViewController.swift in Sources */,
+				3443B29C1D762A4400203D74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3443B27E1D76287E00203D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3443B2771D76287E00203D74 /* Serrano */;
+			targetProxy = 3443B27D1D76287E00203D74 /* PBXContainerItemProxy */;
+		};
+		3443B2AD1D762B9D00203D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3443B2771D76287E00203D74 /* Serrano */;
+			targetProxy = 3443B2AC1D762B9D00203D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3443B2961D762A4400203D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3443B2971D762A4400203D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "../Serrano Example/Base.lproj";
+			sourceTree = "<group>";
+		};
+		3443B2981D762A4400203D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3443B2991D762A4400203D74 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../Serrano Example/Base.lproj";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3443B2821D76287E00203D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S4BT7M28UN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Serrano/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jones.matt.Serrano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3443B2831D76287E00203D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S4BT7M28UN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Serrano/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jones.matt.Serrano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3443B2AF1D762B9D00203D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S4BT7M28UN;
+				INFOPLIST_FILE = "Serrano Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jones.matt.Serrano-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3443B2B01D762B9D00203D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S4BT7M28UN;
+				INFOPLIST_FILE = "Serrano Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jones.matt.Serrano-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		34D82D271D5A4EA600BDCB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34D82D281D5A4EA600BDCB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D82D2A1D5A4EA600BDCB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S4BT7M28UN;
+				INFOPLIST_FILE = "$(SRCROOT)/Serrano Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jones.matt.Serrano-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34D82D2B1D5A4EA600BDCB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S4BT7M28UN;
+				INFOPLIST_FILE = "$(SRCROOT)/Serrano Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jones.matt.Serrano-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3443B2811D76287E00203D74 /* Build configuration list for PBXNativeTarget "Serrano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3443B2821D76287E00203D74 /* Debug */,
+				3443B2831D76287E00203D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3443B2AE1D762B9D00203D74 /* Build configuration list for PBXNativeTarget "Serrano Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3443B2AF1D762B9D00203D74 /* Debug */,
+				3443B2B01D762B9D00203D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D82D121D5A4EA600BDCB5E /* Build configuration list for PBXProject "Serrano Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D82D271D5A4EA600BDCB5E /* Debug */,
+				34D82D281D5A4EA600BDCB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D82D291D5A4EA600BDCB5E /* Build configuration list for PBXNativeTarget "Serrano Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D82D2A1D5A4EA600BDCB5E /* Debug */,
+				34D82D2B1D5A4EA600BDCB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D82D0F1D5A4EA600BDCB5E /* Project object */;
+}
