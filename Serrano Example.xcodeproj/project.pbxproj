@@ -14,13 +14,13 @@
 		3443B28F1D76290700203D74 /* RequestEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B28A1D76290700203D74 /* RequestEncoder.swift */; };
 		3443B2901D76290700203D74 /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B28B1D76290700203D74 /* ResponseParser.swift */; };
 		3443B2921D76290700203D74 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B28D1D76290700203D74 /* URLBuilder.swift */; };
-		3443B29C1D762A4400203D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B2931D762A4400203D74 /* AppDelegate.swift */; };
-		3443B29D1D762A4400203D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3443B2941D762A4400203D74 /* Assets.xcassets */; };
-		3443B29E1D762A4400203D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3443B2961D762A4400203D74 /* LaunchScreen.storyboard */; };
-		3443B29F1D762A4400203D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3443B2981D762A4400203D74 /* Main.storyboard */; };
-		3443B2A11D762A4400203D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B29B1D762A4400203D74 /* ViewController.swift */; };
 		3443B2A91D762B9D00203D74 /* Serrano_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B2A81D762B9D00203D74 /* Serrano_Tests.swift */; };
 		3443B2AB1D762B9D00203D74 /* Serrano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3443B2781D76287E00203D74 /* Serrano.framework */; };
+		348EA18A1F169059009F2020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348EA1821F169032009F2020 /* AppDelegate.swift */; };
+		348EA18B1F169061009F2020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348EA1891F169032009F2020 /* ViewController.swift */; };
+		348EA18C1F169095009F2020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348EA1831F169032009F2020 /* Assets.xcassets */; };
+		348EA18D1F169095009F2020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348EA1841F169032009F2020 /* LaunchScreen.storyboard */; };
+		348EA18E1F169095009F2020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348EA1861F169032009F2020 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,15 +62,15 @@
 		3443B28A1D76290700203D74 /* RequestEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestEncoder.swift; sourceTree = "<group>"; };
 		3443B28B1D76290700203D74 /* ResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
 		3443B28D1D76290700203D74 /* URLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
-		3443B2931D762A4400203D74 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Serrano Example/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
-		3443B2941D762A4400203D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Serrano Example/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
-		3443B2971D762A4400203D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3443B2991D762A4400203D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		3443B29A1D762A4400203D74 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Serrano Example/Info.plist"; sourceTree = SOURCE_ROOT; };
-		3443B29B1D762A4400203D74 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Serrano Example/ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		3443B2A61D762B9D00203D74 /* Serrano Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Serrano Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3443B2A81D762B9D00203D74 /* Serrano_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serrano_Tests.swift; sourceTree = "<group>"; };
 		3443B2AA1D762B9D00203D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348EA1821F169032009F2020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		348EA1831F169032009F2020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		348EA1851F169032009F2020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		348EA1871F169032009F2020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		348EA1881F169032009F2020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348EA1891F169032009F2020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34D82D171D5A4EA600BDCB5E /* Serrano Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Serrano Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,10 +123,23 @@
 			path = "Serrano Tests";
 			sourceTree = "<group>";
 		};
+		348EA1811F169032009F2020 /* Serrano Example */ = {
+			isa = PBXGroup;
+			children = (
+				348EA1821F169032009F2020 /* AppDelegate.swift */,
+				348EA1831F169032009F2020 /* Assets.xcassets */,
+				348EA1841F169032009F2020 /* LaunchScreen.storyboard */,
+				348EA1861F169032009F2020 /* Main.storyboard */,
+				348EA1881F169032009F2020 /* Info.plist */,
+				348EA1891F169032009F2020 /* ViewController.swift */,
+			);
+			path = "Serrano Example";
+			sourceTree = "<group>";
+		};
 		34D82D0E1D5A4EA600BDCB5E = {
 			isa = PBXGroup;
 			children = (
-				34D82D191D5A4EA600BDCB5E /* Serrano Example */,
+				348EA1811F169032009F2020 /* Serrano Example */,
 				3443B2791D76287E00203D74 /* Serrano */,
 				3443B2A71D762B9D00203D74 /* Serrano Tests */,
 				34D82D181D5A4EA600BDCB5E /* Products */,
@@ -141,20 +154,6 @@
 				3443B2A61D762B9D00203D74 /* Serrano Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		34D82D191D5A4EA600BDCB5E /* Serrano Example */ = {
-			isa = PBXGroup;
-			children = (
-				3443B2931D762A4400203D74 /* AppDelegate.swift */,
-				3443B29B1D762A4400203D74 /* ViewController.swift */,
-				3443B2941D762A4400203D74 /* Assets.xcassets */,
-				3443B2961D762A4400203D74 /* LaunchScreen.storyboard */,
-				3443B2981D762A4400203D74 /* Main.storyboard */,
-				3443B29A1D762A4400203D74 /* Info.plist */,
-			);
-			name = "Serrano Example";
-			path = "MRKNetworking Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +238,7 @@
 					3443B2771D76287E00203D74 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = S4BT7M28UN;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					3443B2A51D762B9D00203D74 = {
@@ -250,7 +249,7 @@
 					34D82D161D5A4EA600BDCB5E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = S4BT7M28UN;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -294,9 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3443B29F1D762A4400203D74 /* Main.storyboard in Resources */,
-				3443B29D1D762A4400203D74 /* Assets.xcassets in Resources */,
-				3443B29E1D762A4400203D74 /* LaunchScreen.storyboard in Resources */,
+				348EA18C1F169095009F2020 /* Assets.xcassets in Resources */,
+				348EA18D1F169095009F2020 /* LaunchScreen.storyboard in Resources */,
+				348EA18E1F169095009F2020 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3443B2A11D762A4400203D74 /* ViewController.swift in Sources */,
-				3443B29C1D762A4400203D74 /* AppDelegate.swift in Sources */,
+				348EA18B1F169061009F2020 /* ViewController.swift in Sources */,
+				348EA18A1F169059009F2020 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,22 +346,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3443B2961D762A4400203D74 /* LaunchScreen.storyboard */ = {
+		348EA1841F169032009F2020 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3443B2971D762A4400203D74 /* Base */,
+				348EA1851F169032009F2020 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = "../Serrano Example/Base.lproj";
 			sourceTree = "<group>";
 		};
-		3443B2981D762A4400203D74 /* Main.storyboard */ = {
+		348EA1861F169032009F2020 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3443B2991D762A4400203D74 /* Base */,
+				348EA1871F169032009F2020 /* Base */,
 			);
 			name = Main.storyboard;
-			path = "../Serrano Example/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,7 +383,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -410,7 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jones.matt.Serrano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -544,7 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jones.matt.Serrano-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -559,7 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jones.matt.Serrano-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
